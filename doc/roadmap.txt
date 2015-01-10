@@ -1,0 +1,60 @@
+[Meeting of 10 Jan 2015]
+Groups so far.
+1. Gourav (entity modeling from paragraphs, ex. tourist places)
+2. Sonali+Rohit (review categorization/email sorting)
+3. Aditya (information outbreak in networks)
+4. Sarthak (news articles and investor sentiments)
+
+Dist. repr. from words to sentences:
+Must read:
+1. Distributed Representations of Words and Phrases and their Compositionality by Tomas Mikolov and others. Code available.
+
+2. Semisupervised recursive autoencoders for predicting sentiment distributions by Socher and others.
+
+3. Distributed Representations of Sentences and Documents by Quoc and Mikolov.
+
+4. Evaluation of Simple Distributional Compositional Operationson Longer Texts by Tamara Polajnar and others.
+
+5. Combined Distributional and Logical Semantics by Mike Lewis and Mark Steedman.
+
+Refs. 1, 2 and 3 are about distributional representations which are of immediate necessity. This should then be followed up with extensions from 4 and 5 to complete the feature representation of textual blocks (sentences, paragraphs or tweets- tweets might need some spelling correction when necessary).
+
+Additional readings (on logical representations):
+1. Erk, K. (2013). Towards a semantics for distributional representations. In Proceedings of the Tenth International Conference on Computational Semantics (IWCS2013).
+
+2. Garrette, D., Erk, K., and Mooney, R. (2014). A formal approach to linking logical form and vector-space lexical semantics. In Bunt, H., Bos, J., and Pulman, S., editors. Text, Speech and Language Technology: Computing Meaning, 47:27-48. Springer.
+
+3. Turney, P. D. and Pantel, P. (2010). From frequency to meaning: Vector space models of semantics. Journal of Artificial Intelligence Research, 37:141-188.
+
+Specific readings:
+1. Reading the Markets: Forecasting Public Opinion of Political Candidates by News Analysis by Kevin Lerman and others.
+2.  Semantic Frames to Predict Stock Price Movement by Boyi Xie and others.
+
+
+Unsupervised methods for clustering of training data (finite/infinite):
+[Mixture models/K-means with varying K in batch case]
+[Topic models/Dictionary learning/Matrix factorization]
+[Chinese restaurant/Indian buffet]
+
+Semi-supervised learning:
+Posterior regularization +
+human in the loop correction +
+active learning-
+to correct for categories, representation or weights linking them.
+
+Applications to:
+Entity modeling with dist. repr.
+Review/email categorization
+Trends and outbreaks in streams
+Textual effects of forecasting
+
+Data sources:
+1[necessary]. Wikipedia, twitter, newsgroups
+
+2[relevant]. http://alt.qcri.org/semeval2015/task12/ 
+http://alt.qcri.org/semeval2014/task4/
+http://alt.qcri.org/semeval2014/task1/
+
+3[less relevant]. http://alt.qcri.org/semeval2014/task7/
+http://www.alta.asn.au/events/sharedtask2014/description.html
+http://alt.qcri.org/semeval2015/task13/
