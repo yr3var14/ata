@@ -1,9 +1,9 @@
 [Meeting of 10 Jan 2015]
 Groups so far.
-1. Gourav (entity modeling from paragraphs, ex. tourist places)
-2. Sonali+Rohit (review categorization/email sorting)
-3. Aditya (information outbreak in networks)
-4. Sarthak (news articles and investor sentiments)
+1[EM]. Gourav (entity modeling , ex. tourist places)
+2[RC]. Sonali+Rohit (review categorization/email sorting)
+3[IO]. Aditya (information outbreak in networks)
+4[IS]. Sarthak (news articles and investor sentiments)
 
 Dist. repr. from words to sentences:
 Must read:
@@ -27,9 +27,13 @@ Additional readings (on logical representations):
 3. Turney, P. D. and Pantel, P. (2010). From frequency to meaning: Vector space models of semantics. Journal of Artificial Intelligence Research, 37:141-188.
 
 Specific readings:
-1. Reading the Markets: Forecasting Public Opinion of Political Candidates by News Analysis by Kevin Lerman and others.
-2.  Semantic Frames to Predict Stock Price Movement by Boyi Xie and others.
+1[IS]. Reading the Markets: Forecasting Public Opinion of Political Candidates by News Analysis by Kevin Lerman and others.
 
+2[IS].  Semantic Frames to Predict Stock Price Movement by Boyi Xie and others.
+
+3[IO]. Learning Evolving and Emerging Topics in Social Media: A Dynamic NMF approach with Temporal Regularization by Ankan Saha and Vikas Sindhwani.
+
+4[IO]. Emerging topic detection on Twitter based on temporal and social terms evaluation by Matio Cataldi and others.
 
 Unsupervised methods for clustering of training data (finite/infinite):
 [Mixture models/K-means with varying K in batch case]
