@@ -35,6 +35,9 @@ Specific readings:
 
 4[IO]. Emerging topic detection on Twitter based on temporal and social terms evaluation by Matio Cataldi and others.
 
+5[IO]. Earthquake Shakes Twitter Users: Real-time Event Detection by Social Sensors by Takeshi Sakaki, Makoto Okazaki and Yutaka Matsuo.
+
+
 Unsupervised methods for clustering of training data (finite/infinite):
 [Mixture models/K-means with varying K in batch case]
 [Topic models/Dictionary learning/Matrix factorization]
