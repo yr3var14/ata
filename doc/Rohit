@@ -1,0 +1,13 @@
+
+group [RC]. (Sonali+Rohit) [email sorting]
+1.we have installed scikit
+2.we have downloaded the data
+3.extracting features from text files
+4.training a classifier
+5. predicting the category of the new document
+we have written a python code for all these things to happen.
+
+future plans
+------------
+1.We think this is just the basic running version, it needs to be configured in a better way
+2.till now , we have done all this over supervised data , next we will try to do this over unsupervised data using (k-mean clustering algorithm ) or may be another algorithm.
