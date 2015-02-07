@@ -1,0 +1,22 @@
+
+Progress during the weeks (17 jan to 7 feb)
+
+problem in finding the twitter dataset. Twitter datasets are removed once they are made public.
+Most twitter databases i came accross were csv files.
+I emailed the stanford snap lab for database and a korean group but got no response till now.
+Configured the scikit library.
+From the paper: Earthquake Shakes Twitter Users: Real-time Event Detection by Social Sensors, I learnt :
+                                                  1.Sementic analysis to classify tweets into positive and negative tweets
+                                                  2.Applying kalman and particle filters to detect the location of the event
+                                                  3.Applying probabilistic models to detect an event in real time.
+Read another inmportant paper about information outbreak on twitter: Learning Evolving and Emerging Topics in Social Media: A Dynamic NMF approach with Temporal Regularization
+                                                  1. This paper categorises the topics as evolving and emerging topics
+                                                  2. This paper is a mathematically rigourous in its approach to deal with the topics evolving and emerging.
+                                                  3. This paper can serve as the base approach to do any further work in this project.
+Read other must read papers mentioned in the roadmap doc.
+
+
+
+Future Plans:
+To start implementing working model for information outbreak as soon as possible so as to study the information outbreak during world cup
+Develop my own mathematical models or improvise some existing ones to track the emergence of topics.
