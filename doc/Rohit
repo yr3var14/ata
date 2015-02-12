@@ -12,5 +12,8 @@ future plans
 1.We think this is just the basic running version, it needs to be configured in a better way
 2.till now , we have done all this over supervised data , next we will try to do this over unsupervised data using (k-mean clustering algorithm ) or may be another algorithm.
 
+date[12:02:2015]
+1.Model Persistence is done
+(the model is saved in a file using python pickle library)
 
 
