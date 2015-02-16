@@ -16,4 +16,7 @@ date[12:02:2015]
 1.Model Persistence is done
 (the model is saved in a file using python pickle library)
 
-
+date[16:02:2015]
+1. comparision of different classifier on the basis of their prediction accuracy , time taken to train and test , f1-score and dimensionality
+on the basis of which we can decide which classifier is suitable for our model
+2. code file code.py is uploaded in src folder
