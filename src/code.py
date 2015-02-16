@@ -1,5 +1,5 @@
-/*code to compare different classifiers on the basis of their prediction accuracy , time taken to train and test , f1-score and dimensionality
-on the basis of which we can decide which classifier is suitable for our model*/
+#code to compare different classifiers on the basis of their prediction accuracy , time taken to train and test , f1-score and dimensionality
+#on the basis of which we can decide which classifier is suitable for our model
 from __future__ import print_function
 
 import logging
