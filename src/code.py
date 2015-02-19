@@ -1,4 +1,4 @@
-
+"""
 ======================================================
 Classification of text documents using sparse features
 ======================================================
@@ -6,7 +6,7 @@ Classification of text documents using sparse features
 code to compare different classifiers on the basis of their prediction accuracy , time taken to train and test , f1-score and dimensionality
 on the basis of which we can decide which classifier is suitable for our model
 
-"""
+
 
 # Author: Peter Prettenhofer <peter.prettenhofer@gmail.com>
 #         Olivier Grisel <olivier.grisel@ensta.org>
@@ -14,6 +14,7 @@ on the basis of which we can decide which classifier is suitable for our model
 #         Lars Buitinck <L.J.Buitinck@uva.nl>
 # License: BSD 3 clause
 
+"""
 from __future__ import print_function
 import sklearn
 from sklearn import *
