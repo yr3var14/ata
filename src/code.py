@@ -24,7 +24,7 @@ import sys
 from time import time
 import matplotlib.pyplot as plt
 
-from sklearn.datasets import fetch_20newsgroups
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import HashingVectorizer
 from sklearn.feature_selection import SelectKBest, chi2
@@ -101,13 +101,13 @@ if opts.filtered:
 else:
     remove = ()
 
-print("Loading 20 newsgroups dataset for categories:")
+print("Loading dataset for categories:")
 print(categories if categories else "all")
 
-data_train = sklearn.datasets.load_files('/home/sonali/Desktop/20news-bydate-train', description=None, categories=None, load_content=True, shuffle=True, encoding='latin1', charset=None, charset_error=None, decode_error='strict', random_state=42)
+data_train = sklearn.datasets.load_files('/home/sonali/Desktop/train', description=None, categories=None, load_content=True, shuffle=True, encoding='latin1', charset=None, charset_error=None, decode_error='strict', random_state=42)
 
 
-data_test = sklearn.datasets.load_files('/home/sonali/Desktop/20news-bydate-train', description=None, categories=None, load_content=True, shuffle=True, encoding='latin1', charset=None, charset_error=None, decode_error='strict', random_state=42)
+data_test = sklearn.datasets.load_files('/home/sonali/Desktop/test', description=None, categories=None, load_content=True, shuffle=True, encoding='latin1', charset=None, charset_error=None, decode_error='strict', random_state=42)
 
 print('data loaded')
 
