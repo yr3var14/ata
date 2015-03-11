@@ -11,7 +11,7 @@ def validationerror(option,X_train,X_test,y_train,y_test):
 
 	for alpha in alphas:
 		if option == 'svm':
-			clf=SVC(gamma=alpha,C=1)
+			clf=SVC(C=alpha)
 
 		elif option == 'multinomial':
 			clf=MultinomialNB(alpha=alpha)
