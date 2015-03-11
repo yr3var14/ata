@@ -4,6 +4,7 @@ dated : [11/3/2015]
     full range of possible α values in our grid.
     we have picked the best α value (i.e. the one that gives the lowest error)
     after finding the the value of α, we have retrain the new nodel with this value of alpha.
+    these values are specific to model 'MultinomialNB'
     
     1. THIS IS THE LIST OF TEST ERRORS WHICH WE HAVE FOUND FOR THE GIVEN VALUES OF ALPHA
     
