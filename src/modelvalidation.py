@@ -11,7 +11,7 @@ def validationerror(option,X_train,X_test,y_train,y_test):
 
 	for alpha in alphas:
 		if option == 'svm':
-			clf=SVC(C=alpha)
+			clf=SGDClassifier(alpha=alpha, n_iter=50,penalty="elasticnet")
 
 		elif option == 'multinomial':
 			clf=MultinomialNB(alpha=alpha)
