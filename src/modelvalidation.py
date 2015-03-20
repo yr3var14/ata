@@ -10,7 +10,7 @@ def validationerror(option,X_train,X_test,y_train,y_test):
 	test_errors = list()
 
 	for alpha in alphas:
-		if option == 'svm':
+		if option == 'svd':
 			clf=SGDClassifier(alpha=alpha, n_iter=50,penalty="elasticnet")
 
 		elif option == 'multinomial':
