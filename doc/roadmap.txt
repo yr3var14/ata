@@ -56,12 +56,26 @@ Trends and outbreaks in streams
 Textual effects of forecasting
 
 Data sources:
-1[necessary]. Wikipedia, twitter, newsgroups
+1[necessary]. 
+Wikipedia, twitter, newsgroups
 
-2[relevant]. http://alt.qcri.org/semeval2015/task12/ 
+2[relevant]. 
+http://alt.qcri.org/semeval2015/task12/ 
 http://alt.qcri.org/semeval2014/task4/
 http://alt.qcri.org/semeval2014/task1/
 
-3[less relevant]. http://alt.qcri.org/semeval2014/task7/
+3[less relevant]. 
+http://alt.qcri.org/semeval2014/task7/
 http://www.alta.asn.au/events/sharedtask2014/description.html
 http://alt.qcri.org/semeval2015/task13/
+
+4[interesting challaneging data].
+https://nlds.soe.ucsc.edu/iac [annotated argumets for dialouge discourse analysis in semantic space] also see,
+http://www.aclweb.org/portal/content/argument-extraction-corpus-new-corpus-release
+
+[clinical data to draw timelines of what happened when and alluding at cause and effects]
+https://clear.colorado.edu/TemporalWiki/index.php/Main_Page
+https://github.com/stylerw/thymedata
+
+[web data to separate facts from rumours]
+http://www.pheme.eu/
